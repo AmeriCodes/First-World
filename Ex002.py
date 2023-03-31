@@ -1,12 +1,4 @@
-# Crie um script Python que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre um mensagem com a data formatada.
+# Crie um script Python que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de acordo com o valor digitado.
 
-print('=-' *15)
-print('Digite sua data de nascimento.')
-print('=-' *15)
-
-dia = input('Dia = ')
-mês = input('Mês = ')
-ano = input('Ano = ')
-
-print('=-' *15)
-print(f'Você nasceu dia {dia} de {mês} de {ano}.')
+nome = input('Qual é o seu nome: ')
+print(f'Seja muito bem vindo {nome}!, é um prazer ter você conosco!')
