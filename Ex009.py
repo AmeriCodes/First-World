@@ -1,6 +1,7 @@
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
-
+print('_'*15)
 n = int(input('Digite um número: '))
+print('_'*15)
 
 print(f'{n} * 1 = {n * 1}')
 print(f'{n} * 2 = {n * 2}')
