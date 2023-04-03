@@ -1,7 +1,7 @@
 # Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
-print('-'*15)
+print('-' * 15)
 n = int(input('Digite um número: '))
-print('-'*15)
+print('-' * 15)
 
 print(f'{n} * {1:2} = {n * 1}')
 print(f'{n} * {2:2} = {n * 2}')
@@ -13,4 +13,4 @@ print(f'{n} * {7:2} = {n * 7}')
 print(f'{n} * {8:2} = {n * 8}')
 print(f'{n} * {9:2} = {n * 9}')
 print(f'{n} * {10:2} = {n * 10}')
-print('-'*15)
+print('-' * 15)
