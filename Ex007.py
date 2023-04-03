@@ -3,7 +3,7 @@
 print('==' *15)
 n1 = float(input('Digite a primeira nota: '))
 n2 = float(input('Digite a segunda nota: '))
-print('==10' *15)
+print('==' *15)
 
 soma = n1 + n2
 
