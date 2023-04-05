@@ -6,13 +6,20 @@ parte_inteira = int(número)
 
 print(f'A parte inteira do número {número} é {parte_inteira}.')
 
-# Outra maneira de extrair a parte inteira de um número abaixo.
+
+# Também da pra fazer utilizando a função 'trunc' da biblioteca 'math', que corta a parte flutuante do número.
+
+"""from math import trunc
+num = float(input('Digite um valor: '))
+print(f'O valor digitedo foi {num} e a sua porção inteira é {trunc(num)}.')"""
+
+
+# Outra maneira de extrair a parte inteira de um número é utilizando a função de arredondamento para baixo 'floor'.
 
 """import math
 
-numero_real = float(input("Digite um número real: "))  # Lê um número real
+numero_real = float(input("Digite um número real: "))
 
-parte_inteira = math.floor(numero_real)  # Extrai a parte inteira do número
+parte_inteira = math.floor(numero_real)
 
-print("A parte inteira do número é:", parte_inteira)  # Mostra a parte inteira do número
-"""
+print("A parte inteira do número é:", parte_inteira)"""
