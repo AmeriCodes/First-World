@@ -2,7 +2,7 @@
 
 import math
 
-angulo = float(input('Digite o ângulo em graus: '))
+angulo = float(input('Digite o ângulo em graus: ')) # Uma informação importante é que os parâmetros de Seno, Cosseno e Tangente estão em Radianos e não em graus, então é necessário converter primeiro.
 
 angulo_em_radianos = math.radians(angulo)
 
