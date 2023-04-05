@@ -7,9 +7,9 @@ aluno2 = input('Digite o nome do segundo aluno: ')
 aluno3 = input('Digite o nome do terceiro aluno: ')
 aluno4 = input('Digite o nome do quarto aluno: ')
 
-alunos = [aluno1, aluno2, aluno3, aluno4]
+lista = [aluno1, aluno2, aluno3, aluno4] # As listas no python ficam entre chaves.
 
-escolhido = random.choice(alunos)
+escolhido = random.choice(lista)
 
 print(f'O aluno escolhida para apagar o quadro é: {escolhido}.')
 
