@@ -14,3 +14,7 @@ time.sleep(3)
 print(f'A letra A aparece {frase.count("A")} vezes na frase.')
 print(f'A primeira letra A aparece na posição {frase.find("A")}.')
 print(f'A última letra A aparece na posição {frase.rfind("A")}.')
+
+# Fazendo esse exercício eu percebi que não posso utilizar aspas simples fora e dentro das chaves utilizando f-string, já utilizando o .format() é possivel, assim como no código abaixo.
+# *print('A última letra A aparece na posição {}.'.format(frase.rfind('A')))
+
