@@ -11,6 +11,12 @@ print(f'Seu nome com todas as letras menúsculas: {nome.lower()}.')
 print(f'Seu nome tem ao todo {len(nome) - nome.count(" ")} letras.') # Por algum motivo usando o f-string, foi necessário utilizar aspas duplas dentro dos parenteses, coisas que não seria necessária utilizando o .format.
 print(f'Seu primeiro nome tem {nome.find(" ")} letras.')
 
+
+# Também seria possivel resolver a questão fazendo uma variável que rece o nome e transforma em lista, e depois utilizar a função 'len' para contar só o primeiro iten da lista.
+
+"""separa = nome.split()
+print(f'Seu primeiro nome é {separa[0]} e ele tem {len(separa[0])} letras.')"""
+
 # *Outra maneira de fazer.*
 
 """
