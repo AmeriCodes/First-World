@@ -10,5 +10,3 @@ Também tenho como meta me familiarizar com a utilização de Git e GitHub, util
 
 Caso queira conhecer o curso que refiro-me.
 [Clique aqui.](https://www.cursoemvideo.com/curso/python-3-mundo-1/)
-
-test
