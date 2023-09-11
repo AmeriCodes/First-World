@@ -17,7 +17,6 @@ while True:
             print('Invalid value, try again.')
             continue
 
-second_value = ''
 while True:
     second_value = str(input('Enter another value: ')).strip()
     try:
